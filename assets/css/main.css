@@ -1,0 +1,88 @@
+/************************************CSS************************************/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,500&display=swap');
+
+body {
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;
+}
+
+p, blockquote {
+    font-size: .9em;
+    line-height: 1.6em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 1.8em 2.4em;
+}
+
+.logo {
+    width: 110px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+.menu{
+    width: 45px;
+    margin-top: 30%;
+    margin-left: 15%;
+}
+
+.serverImg {
+    width:70%;
+    margin: 2em auto 2em 25%;
+}
+
+h1, .subHead {
+    position: relative;
+    z-index: 3;
+}
+
+.subHead {
+    font-size: 1em;
+}
+
+.blueContainer {
+width: 100%;
+background-color: #00ccf8;
+color: #fff;
+margin-top: 15%;
+padding:4em 0 ;
+border-top-left-radius: 40px;
+transform: skewY(-5deg);
+}
+
+.blueContainer:before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #00ccf8;
+    position: absolute;
+    
+}
+
+
+.blueContainer:after{
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+}
+
+.blueContainer ul{
+    transform: skewY(5deg);
+}
